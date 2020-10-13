@@ -1,0 +1,357 @@
+body{
+    width: 100%;
+    padding:0px;
+    margin: 0px;
+    }
+   /* ----------------------- body ---------------------------- */
+
+.Nav{
+    display: flex;
+    justify-content: flex-end;
+    background-color: black ;
+    padding-top: 15px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    width: auto;
+    margin-right: 10px;
+    width: 100%;
+   } 
+    /* --------------------- Barre de navigation ---------------- */
+
+.Element_nav{
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+            }
+.Element_nav:hover{
+    color: gray;
+                  }
+       /* ----------- les éléments de la barre de navigation ----- */
+  
+#Title{
+    position: relative;
+    right: 700px;
+    font-size: 20px;
+    font-weight: bold;
+    color:white;
+      }
+       /* ---------------- Le titre Mon Portfolio -------------- - */
+
+#Logo{
+    position: relative;
+    right: 270px;
+    }
+            /* ---------------------- Le logo de l'agence --------------------- */
+
+.Acceuil{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top : 30px;
+        }
+
+.Présentation{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+           }
+            /* ------------- Paragraphe de la partie Acceuil ------------- */
+
+.Intro{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+             }
+               /* ------------- Présentaton dans la partie Acceuil ------------- */
+.Selection{
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+          }
+.Select{
+    width:330px;
+    height: 30px;
+    margin-bottom: 10px;
+    border: none;
+       }
+.Select:hover{
+    box-shadow: 5px 5px;
+    background-color: lightblue;
+}
+
+.Input{
+    width :120px;
+    height: 30px;
+    background-color: #f0f3f5;
+    margin-bottom: 10px;
+    border: none;
+         }
+.Input:hover{
+    box-shadow: 5px 5px;
+    background-color: lightblue;
+             }
+#Time{
+    width:75px;
+     }
+
+#Rechercher{
+    width:330px;
+    height: 45px;
+    background-color: lightgrey; 
+    font-size: 25px;
+            }
+#Rechercher:hover{
+    background-color: gray;
+                 }
+
+#Horaires{
+    position: relative;
+    top:30px;
+         }    
+#Téléphone{
+    position: relative;
+    top:30px;
+          }    
+.Info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    background-color: lightgrey;
+     }  
+
+.Info_text{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    right: 80px;
+          }
+h2{
+    text-align: center;
+    margin-top:30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    line-height: 1.2;
+    letter-spacing: 4px;
+    font-weight: 400;
+    font-style: normal;
+    color: #2a2a2a;
+  }
+
+.Avantages_logo{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+   
+          }  
+         
+.Avantages_text{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    text-align: center;
+    width: 90%;
+                } 
+.Avanatges_description{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                      }
+div .Avanatges_description{
+    margin-left: 35px;
+                          }
+.Who_we_are{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    background-color: lightgrey;
+    width: 90%;
+    position: relative;
+    left:70px;
+  
+         }  
+.Qui_sommes_nous{
+    letter-spacing: 0px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #2a2a2a;
+    font-size: 16px;
+    line-height: 1.4;
+    letter-spacing: 0.5px;
+    text-align: center;
+        }
+.image{
+    width: 80%;
+      }
+.apropos{
+    width: 50%;
+        }
+.Véhicules{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 300px);
+    background-color: lightgrey;
+    width: 80%;
+    position: relative;
+    left:130px;
+          }
+.Type_véhicule{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    width : 300px;
+
+              }  
+.Type_véhicule:hover{
+    background-color: lightsteelblue;
+}         
+.Title_catalogue{
+    background-color: lightgrey;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    position: relative;
+    top:30px;
+    left: 130px;
+    width: 80%;
+               }
+.Img_véhicule{
+    float :right;
+              }
+.Description_véhicule{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-size: 20px;
+    color: gray;
+    padding-top: 3px;
+    padding-left: 10px;
+    font-weight: normal;
+                     }
+.Spécification_véicule{
+    margin-bottom: 20px;
+                      }
+.Autre_spécification_véicule{
+    position: relative;
+    left:130px;
+    bottom: 132px;
+    margin-bottom:20px ;
+                           }
+ .Spécification_véicule:hover,.Autre_spécification_véicule:hover{
+         color:red;
+                           }
+ 
+
+.Nom_véhicule{
+    margin-top: 10px;
+    text-align: center;
+             }
+.Réserver{
+    position: relative;
+    bottom: 150px;
+    left: 50px; 
+    width: 200px;
+    height: 35px;
+    background-color:wheat ;
+    font-size: 30px;
+    color: grey;
+    font-weight: bold;
+    font-family: cursive;
+         }
+.Réserver:hover{
+    box-shadow: 5px 5px;
+    background-color:cyan;
+               }
+.Contact{
+    background-color: black;
+    position: relative;
+    bottom: 35px;
+    padding-top: 10px;
+        }
+.Footer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+    grid-auto-rows: minmax(100px, auto);
+    background-color: black;
+       }
+.Logo_contact{
+    grid-column: 1;
+    grid-row: 1;
+             }
+.Select_agence{ 
+    grid-column: 2 / 4;
+    grid-row: 1/2;
+              }
+.Map_logo{
+    grid-column: 1;
+    grid-row: 2 / 3;
+         }
+.Nom{
+    grid-column: 2/4;
+    grid-row: 2/3;
+    }
+.Tél_logo{
+    grid-column: 1;
+    grid-row: 3/4;
+         }
+.Tél_formulaire{
+    grid-column: 2/4;
+    grid-row: 3/4;
+               }
+.Map_logo2{
+    grid-column: 1;
+    grid-row: 4/5;
+          }
+.Mail_formulaire{
+    grid-column : 2/4;
+    grid-row: 4/5;
+                }
+.Tél_logo2{
+    grid-column: 1;
+    grid-row: 5/6;  
+          }
+.Message_formulaire{
+    grid-column: 2/4;
+    grid-row: 5/8;  
+          }
+.Map_logo3{
+    grid-column: 1;
+    grid-row: 6/7;  
+           }
+.Tél_logo3{
+    grid-column: 1;
+    grid-row: 7/8;  
+          }
+.Logo_contact,.Map_logo3,.Tél_logo3,.Tél_logo2,.Map_logo2,.Map_logo,.Tél_logo{
+    margin-left: 250px;
+                                                                        }
+.Footer_input{
+    width: 500px;
+    height: 30px;
+    margin-left: 345px;
+    border: none;
+             }   
+#Agence{
+    width: 500px;
+    height: 30px;
+    margin-left: 348px;
+    border: none;
+         }  
+.Footer_message{
+    margin-left: 345px;
+    border: none;
+                    }
+.Coordonnées{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    color: white;
+    position: relative;
+    left: 40px;
+    bottom : 45px;
+    text-align: center;
+           }
+
+
+
+
+
+
+       
